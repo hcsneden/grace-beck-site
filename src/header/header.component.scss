@@ -33,12 +33,15 @@ ul {
   li a:hover:not(.active) {
     background-color: #111;
   }
+
+  img {
+    height: 40px;
+  }
   
-  .name {
+  .logo {
       border: none;
-      font-size: medium;
+      height: 50px;
       padding: 0;
-      padding-top: 5px;
       display: block;
   }
 
