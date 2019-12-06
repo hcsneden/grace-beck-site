@@ -7,6 +7,13 @@
   width: calc(100%/3);
   float: left;
 }
+.col.rowspan1 {
+    grid-row: auto / span .5;
+  }  
+
+.col.rowspan2 {
+    grid-row: auto / span 2;
+  }  
 
 img { 
     max-width:100%;
