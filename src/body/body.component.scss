@@ -16,8 +16,15 @@
 }
 
 .col3{
-  width: 30%;
-  float: left;
+  width: calc(30% - 1.5px);
+  float: right;
+  border-right: .5px solid black;
+}
+
+.col4{
+  width: calc(70% - 1.5px);
+  float: right;
+  border-right: .5px solid black;
 }
 
 .pic1{
@@ -38,6 +45,15 @@
   padding-right: 10%;
 }
 
+.pic3{
+  height: 80%;
+  width: 80%;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 20%;
+  padding-right: 5%;
+}
+
 .pic4{
   height: 80%;
   width: 80%;
@@ -56,28 +72,51 @@
   padding-right: 5%;
 }
 
+.pic6{
+  height: 52%;
+  width: 52%;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 20%;
+  padding-right: 15%;
+}
+
+.pic7{
+  height: 70%;
+  width: 70%;
+  padding-left: 25%;
+  padding-top: 2%;
+  padding-bottom: 25%;
+}
+
 .pic8{
-  height: 60%;
-  width: 60%;
+  height: 50%;
+  width: 50%;
   padding-left: 10%;
   padding-top: 10%;
   padding-bottom: 30%;
   padding-right: 5%;
 }
 
-.small{
+.small-box{
   height: 50px;
-  border: .5px solid black;
-  //border-bottom: none;
-  border-top: none;
+  border-bottom: .5px solid black;
 }
 
-.medium{
-  height: 40%;
+.medium-box{
+  height: 85px;
+  border-bottom: .5px solid black;
+}
+
+.vertical-box{
+  height: 100%;
+  width: 50px;
   border: .5px solid black;
-  border-right: none;
-  border-top: none;
-  border-left: none;
+}
+
+.pic-container{
+  height: 40%;
+  border-bottom: .5px solid black;
 }
 
 .square8{
