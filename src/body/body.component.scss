@@ -26,7 +26,7 @@
 .col4{
   width: calc(70% - 2px);
   float: right;
-  border-right: .5px solid black;
+  border-top: .5px solid black;
 }
 
 .pic1{
@@ -121,6 +121,7 @@
   border-bottom: .5px solid black;
 }
 
-.square{
-  height: 70%
+.pic-container-no-bottom{
+  height: 40%;
+  border-bottom: none;
 }
