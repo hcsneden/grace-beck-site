@@ -19,4 +19,4 @@ deploy:
   region: "us-east-2"
   bucket: "gracebeck.co"
   skip_cleanup: true
-  local_dir: dist/grace-beck-website
+  local_dir: dist/grace-beck-site
