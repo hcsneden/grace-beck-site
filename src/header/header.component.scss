@@ -47,3 +47,12 @@ ul {
       text-transform: uppercase;
     text-align: center;
   }
+
+  @media screen and (max-width: 600px) {
+    li {
+      padding: .5%;
+    }
+    img {
+      height: 20px;
+    }
+  }
