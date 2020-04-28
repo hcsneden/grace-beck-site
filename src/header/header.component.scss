@@ -16,6 +16,7 @@ ul {
   
   li:first-child {
     float: left;
+    border-right: none;
   }
 
   li:last-child {
@@ -42,17 +43,21 @@ ul {
   }
 
   .header-container {
+      border-left: 1px solid black;
       border-bottom: 1px solid black;
       padding: none;
       text-transform: uppercase;
     text-align: center;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 620px) {
     li {
       padding: .5%;
     }
     img {
       height: 20px;
+    }
+    .logo{
+      height: 30px;
     }
   }
