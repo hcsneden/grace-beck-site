@@ -11,7 +11,7 @@
         }
       },
       "root": "",
-      "sourceRoot": "src",
+      "sourceRoot": "",
       "prefix": "app",
       "architect": {
         "build": {
@@ -19,7 +19,7 @@
           "options": {
             "outputPath": "dist/grace-beck-site",
             "index": "index.html",
-            "main": "src/main.ts",
+            "main": "main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": false,
