@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "docs/dist/gracekbeck",
+            "outputPath": "dist/gracekbeck",
             "index": "docs/index.html",
             "main": "docs/main.ts",
             "polyfills": "docs/polyfills.ts",
