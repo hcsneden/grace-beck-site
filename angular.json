@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/grace-beck-site",
+            "outputPath": "docs/dist/grace-beck-site",
             "index": "docs/index.html",
             "main": "docs/main.ts",
             "polyfills": "docs/polyfills.ts",
