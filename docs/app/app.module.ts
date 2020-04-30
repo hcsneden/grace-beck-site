@@ -7,10 +7,6 @@ import { HeaderComponent } from 'docs/app/header/header.component';
 import { FooterComponent } from 'docs/app/footer/footer.component';
 import { BodyComponent } from 'docs/app/body/body.component';
 
-const appRoutes: Routes = [
-  { path: '', component: BodyComponent }
-];
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +16,6 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes, { useHash: true }),
     HttpClientModule
   ],
   providers: [],
