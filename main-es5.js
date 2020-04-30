@@ -563,7 +563,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"header-container\">\n    <ul>\n        <li class=\"logo\">\n            <a href=\"default.asp\">\n                <img src=\"../assets/img/logo.PNG\">\n            </a>\n        </li>\n        <li><a href=\"http://gracebeck.co/contact-wexley\">Contact</a></li>\n        <li><a href=\"http://gracebeck.co/about\">About</a></li>\n        <li><a href=\"http://gracebeck.co/\">Work</a></li>\n    </ul>\n\n</div>";
+    __webpack_exports__["default"] = "<div class=\"header-container\">\n    <ul>\n        <li class=\"logo\">\n            <a href=\"default.asp\">\n                <img src=\"../assets/img/logo.PNG\">\n            </a>\n        </li>\n        <li><a href=\"http://gracebeck.co/contact\">Contact</a></li>\n        <li><a href=\"http://gracebeck.co/about\">About</a></li>\n        <li><a href=\"http://gracebeck.co/\">Work</a></li>\n    </ul>\n\n</div>\n";
     /***/
   },
 

@@ -348,7 +348,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"header-container\">\n    <ul>\n        <li class=\"logo\">\n            <a href=\"default.asp\">\n                <img src=\"../assets/img/logo.PNG\">\n            </a>\n        </li>\n        <li><a href=\"http://gracebeck.co/contact-wexley\">Contact</a></li>\n        <li><a href=\"http://gracebeck.co/about\">About</a></li>\n        <li><a href=\"http://gracebeck.co/\">Work</a></li>\n    </ul>\n\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"header-container\">\n    <ul>\n        <li class=\"logo\">\n            <a href=\"default.asp\">\n                <img src=\"../assets/img/logo.PNG\">\n            </a>\n        </li>\n        <li><a href=\"http://gracebeck.co/contact\">Contact</a></li>\n        <li><a href=\"http://gracebeck.co/about\">About</a></li>\n        <li><a href=\"http://gracebeck.co/\">Work</a></li>\n    </ul>\n\n</div>\n");
 
 /***/ }),
 
