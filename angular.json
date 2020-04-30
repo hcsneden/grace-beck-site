@@ -11,15 +11,15 @@
         }
       },
       "root": "",
-      "sourceRoot": "",
+      "sourceRoot": "src",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/grace-beck-site",
-            "index": "index.html",
-            "main": "main.ts",
+            "index": "src/index.html",
+            "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": false,
