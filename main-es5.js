@@ -563,7 +563,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"header-container\">\n    <ul>\n        <li class=\"logo\">\n            <a href=\"default.asp\">\n                <img src=\"../assets/img/logo.PNG\">\n            </a>\n        </li>\n        <li><a href=\"http://gracebeck.co/contact\">Contact</a></li>\n        <li><a href=\"http://gracebeck.co/about\">About</a></li>\n        <li><a href=\"http://gracebeck.co/\">Work</a></li>\n    </ul>\n\n</div>\n";
+    __webpack_exports__["default"] = "<div class=\"header-container\">\n    <ul>\n        <li class=\"logo\">\n            <a href=\"default.asp\">\n                <img src=\"../assets/img/logo.PNG\">\n            </a>\n        </li>\n        <li><a href=\"http://gracebeck.co/contact\">Contact</a></li>\n        <li><a href=\"http://gracebeck.co/about\">About</a></li>\n        <li>\n            <div class=\"dropdown\">\n                <a class=\"dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                    Work\n                </a>\n                <div class=\"dropdown-menu\" aria-labelledby=\"dropdownMenuButton\">\n                  <a class=\"dropdown-item\" href=\"http://gracebeck.co/\">Action</a>\n                  <a class=\"dropdown-item\" href=\"#\">Another action</a>\n                  <a class=\"dropdown-item\" href=\"#\">Something else here</a>\n                </div>\n            </div>\n        </li>\n    </ul>\n</div>\n";
     /***/
   },
 
