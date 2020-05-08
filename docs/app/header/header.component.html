@@ -1,23 +1,36 @@
-<div class="header-container">
-    <ul>
-        <li class="logo">
-            <a href="default.asp">
-                <img src="../assets/img/logo.PNG">
-            </a>
-        </li>
-        <li><a href="http://gracebeck.co/contact">Contact</a></li>
-        <li><a href="http://gracebeck.co/about">About</a></li>
-        <li>
-            <div class="dropdown">
-                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Work
+<nav class="navbar navbar-expand-lg">
+    <div class="d-flex flex-grow-1">
+        <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+        <a class="navbar-brand d-none d-lg-inline-block" href="#">
+            <img src="../assets/img/logo.PNG">
+        </a>
+        <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
+            <img src="//placehold.it/40?text=LOGO" alt="logo">
+        </a>
+        <div class="w-100 text-right">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </div>
+    <div class="collapse navbar-collapse flex-grow-1 text-right">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+            <li class="nav-item dropdown">
+                <a class="nav-link m-2 menu-item dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Works
                 </a>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="http://gracebeck.co/">Action</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
                   <a class="dropdown-item" href="#">Another action</a>
                   <a class="dropdown-item" href="#">Something else here</a>
                 </div>
-            </div>
-        </li>
-    </ul>
-</div>
+            </li>
+            <li class="nav-item">
+                <a href="http://gracebeck.co/about" class="nav-link m-2 menu-item">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="http://gracebeck.co/contact" class="nav-link m-2 menu-item">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>

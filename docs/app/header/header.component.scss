@@ -18,6 +18,8 @@ ul {
     float: left;
     border-right: none;
   }
+  padding: 0px;
+}
 
   li:last-child {
     border-left: 1px solid black;
@@ -29,35 +31,22 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+.nav-item {
+  border-left: 1px solid black;
+  font-size: x-small;
+  padding-right: 35px;
+  padding-left: 35px;
+  display: block;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
 
-  img {
-    height: 40px;
-  }
-  
-  .logo {
-      border: none;
-      height: 50px;
-      padding: 0;
-      display: block;
-  }
+a {
+  color: black;
+}
 
-  .header-container {
-      border-left: 1px solid black;
-      border-bottom: 1px solid black;
-      padding: none;
-      text-transform: uppercase;
-    text-align: center;
-  }
-
-  @media screen and (max-width: 620px) {
-    li {
-      padding: .5%;
-    }
-    img {
-      height: 20px;
-    }
-    .logo{
-      height: 30px;
-    }
-  }
+img {
+  height: 40px;
+  padding-left: 56px;
+}
