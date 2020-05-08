@@ -1,36 +1,8 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden;
-    background-color: white;
-  }
-  
-  li {
-    float: right;
-    border-right:1px solid black;
-    padding: 10px;
-    padding-right: 35px;
-    padding-left: 35px;
-    font-size: x-small;
-  }
-  
-  li:first-child {
-    float: left;
-    border-right: none;
-  }
+.navbar {
+  border: 1px solid black;
   padding: 0px;
 }
 
-  li:last-child {
-    border-left: 1px solid black;
-  }
-  
-  li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 .nav-item {
   border-left: 1px solid black;
   font-size: x-small;
